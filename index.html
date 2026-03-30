@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>X67</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      background-color: #000;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .logo {
+      background-image: url('x67-logo.png');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+      width: 80vw;
+      height: 80vh;
+    }
+
+    @media (max-width: 600px) {
+      .logo {
+        width: 90vw;
+        height: 50vh;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="logo"></div>
+</body>
+</html>
